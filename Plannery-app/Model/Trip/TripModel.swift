@@ -9,11 +9,11 @@
 import Foundation
 
 class TripModel{
-    let id: String?
-    let title: String?
+    let id: UUID
+    var title: String
     
     init(title: String) {
         self.title = title
-        self.id = UUID().uuidString
+        self.id = UUID()
     }
 }

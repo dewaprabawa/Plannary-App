@@ -13,11 +13,11 @@ class TripFunction{
     
     static var shared = TripFunction()
     
-    class func createTrip(trip: TripModel){
+    func createTrip(trip: TripModel){
         
     }
     
-    class func readTrips(completion:@escaping () -> ()){
+    func readTrips(completion:@escaping () -> ()){
         
         DispatchQueue.global(qos: .userInteractive).async {
             if Data.tripModels.count == 0 {
@@ -34,11 +34,11 @@ class TripFunction{
     }
     
     
-    class func updateTrip(trip: TripModel){
+    func updateTrip(trip: TripModel){
         
     }
     
-    class func deleteTrip(trip: TripModel){
+    func deleteTrip(trip: TripModel){
         
     }
 }
