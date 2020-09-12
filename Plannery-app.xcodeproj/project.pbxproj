@@ -13,6 +13,8 @@
 		C32DA26B250CDF5300BF89BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32DA269250CDF5300BF89BF /* Main.storyboard */; };
 		C32DA26D250CDF5900BF89BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32DA26C250CDF5900BF89BF /* Assets.xcassets */; };
 		C32DA270250CDF5900BF89BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32DA26E250CDF5900BF89BF /* LaunchScreen.storyboard */; };
+		C351A464250CFC3800B1CEE8 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351A463250CFC3800B1CEE8 /* TripModel.swift */; };
+		C351A466250CFC4800B1CEE8 /* TripFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351A465250CFC4800B1CEE8 /* TripFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C32DA26C250CDF5900BF89BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32DA26F250CDF5900BF89BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32DA271250CDF5900BF89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C351A463250CFC3800B1CEE8 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		C351A465250CFC4800B1CEE8 /* TripFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		C32DA262250CDF5300BF89BF /* Plannery-app */ = {
 			isa = PBXGroup;
 			children = (
+				C351A461250CFC1800B1CEE8 /* Model */,
 				C32DA263250CDF5300BF89BF /* AppDelegate.swift */,
 				C32DA265250CDF5300BF89BF /* SceneDelegate.swift */,
 				C32DA267250CDF5300BF89BF /* ViewController.swift */,
@@ -65,6 +70,23 @@
 				C32DA271250CDF5900BF89BF /* Info.plist */,
 			);
 			path = "Plannery-app";
+			sourceTree = "<group>";
+		};
+		C351A461250CFC1800B1CEE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C351A462250CFC2300B1CEE8 /* Trip */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C351A462250CFC2300B1CEE8 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				C351A463250CFC3800B1CEE8 /* TripModel.swift */,
+				C351A465250CFC4800B1CEE8 /* TripFunction.swift */,
+			);
+			path = Trip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			files = (
 				C32DA268250CDF5300BF89BF /* ViewController.swift in Sources */,
 				C32DA264250CDF5300BF89BF /* AppDelegate.swift in Sources */,
+				C351A464250CFC3800B1CEE8 /* TripModel.swift in Sources */,
 				C32DA266250CDF5300BF89BF /* SceneDelegate.swift in Sources */,
+				C351A466250CFC4800B1CEE8 /* TripFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
