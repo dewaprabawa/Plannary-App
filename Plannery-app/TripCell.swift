@@ -21,12 +21,8 @@ class TripCell: UITableViewCell {
     func configure(with model: TripModel){
         self.title.text = model.title.uppercased()
         self.title.textColor = .white
-        self.title.font = UIFont.systemFont(ofSize: 30, weight: .bold)
-        
-        self.cardView.backgroundColor = .systemGreen
-        self.cardView.layer.shadowOpacity = 1
-        self.cardView.layer.shadowOffset = CGSize.zero
-        self.cardView.layer.shadowColor = UIColor.darkGray.cgColor
+        self.title.font = UIFont(name: Theme.boldFontTheme, size: 30)
+        self.cardView.createCornerRadiusWithDropShadows()
     }
     
 }
