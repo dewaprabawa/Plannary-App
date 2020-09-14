@@ -10,10 +10,9 @@ import UIKit
 
 extension UIView{
     func createCornerRadiusWithDropShadows(){
-       backgroundColor = .systemGreen
        layer.shadowOpacity = 1
        layer.shadowOffset = CGSize.zero
-       layer.shadowColor = UIColor.darkGray.cgColor
+        layer.shadowColor = UIColor.systemGreen.cgColor
        layer.cornerRadius = 10
     }
 }

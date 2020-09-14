@@ -9,8 +9,21 @@
 import UIKit
 
 class Theme{
+    
+    /*
+    -Theme Font
+    */
+    
     static var primaryFontTheme = "Roboto-Regular"
     static var secondaryFontTheme = "Roboto-Medium"
     static var boldFontTheme = "Roboto-Bold"
     static var lightFontTheme = "Roboto-Light"
+    
+    /*
+     -Theme color
+     */
+    
+    static var accent = UIColor(named: "Accent")
+    static var background = UIColor(named: "Background")
+    static var tint = UIColor(named: "Tint")
 }

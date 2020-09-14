@@ -18,8 +18,8 @@ class TripViewController: UIViewController {
         TripFunction.shared.readTrips{ [weak self] in
             self?.tableView.reloadData()
         }
-        
         tableViewSetups()
+        navigationSetups()
     }
 
     
@@ -27,6 +27,11 @@ class TripViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(TripCell.nib(), forCellReuseIdentifier: TripCell.identifier)
+    }
+    
+    private func navigationSetups(){
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.title = "Trips"
     }
 
 }

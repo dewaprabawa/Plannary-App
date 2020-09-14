@@ -23,6 +23,7 @@ class TripCell: UITableViewCell {
         self.title.textColor = .white
         self.title.font = UIFont(name: Theme.boldFontTheme, size: 30)
         self.cardView.createCornerRadiusWithDropShadows()
+        self.cardView.backgroundColor = Theme.accent
     }
     
 }

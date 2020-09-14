@@ -13,6 +13,7 @@
 		C30EAF52250DAAC400C21846 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C30EAF4E250DAAC400C21846 /* Roboto-Bold.ttf */; };
 		C30EAF53250DAAC400C21846 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C30EAF4F250DAAC400C21846 /* Roboto-Regular.ttf */; };
 		C30EAF56250DAC2600C21846 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30EAF55250DAC2600C21846 /* UIView+Extensions.swift */; };
+		C31B5678250F021200820EB2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31B5677250F021200820EB2 /* Colors.xcassets */; };
 		C32DA264250CDF5300BF89BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32DA263250CDF5300BF89BF /* AppDelegate.swift */; };
 		C32DA266250CDF5300BF89BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32DA265250CDF5300BF89BF /* SceneDelegate.swift */; };
 		C32DA268250CDF5300BF89BF /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32DA267250CDF5300BF89BF /* TripViewController.swift */; };
@@ -33,6 +34,7 @@
 		C30EAF4E250DAAC400C21846 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		C30EAF4F250DAAC400C21846 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		C30EAF55250DAC2600C21846 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C31B5677250F021200820EB2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C32DA260250CDF5300BF89BF /* Plannery-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plannery-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32DA263250CDF5300BF89BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32DA265250CDF5300BF89BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				C30EAF4D250DAAC400C21846 /* Roboto-Light.ttf */,
 				C30EAF4C250DAAC400C21846 /* Roboto-Medium.ttf */,
 				C30EAF4F250DAAC400C21846 /* Roboto-Regular.ttf */,
+				C31B5677250F021200820EB2 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31B5678250F021200820EB2 /* Colors.xcassets in Resources */,
 				C30EAF52250DAAC400C21846 /* Roboto-Bold.ttf in Resources */,
 				C30EAF50250DAAC400C21846 /* Roboto-Medium.ttf in Resources */,
 				C30EAF53250DAAC400C21846 /* Roboto-Regular.ttf in Resources */,
