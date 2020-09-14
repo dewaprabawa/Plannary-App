@@ -28,6 +28,9 @@
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="plus" catalog="system"/>
+                                <connections>
+                                    <segue destination="a3a-Mt-AYZ" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="5VH-g6-Snk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -50,6 +53,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="137.94642857142856"/>
+        </scene>
+        <!--TripAddAction-->
+        <scene sceneID="M84-DZ-ArV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="TripAddAction" storyboardName="TripAddAction" id="a3a-Mt-AYZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90L-bk-FeC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="140"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pPt-rw-HHb">

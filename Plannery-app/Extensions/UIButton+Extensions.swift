@@ -14,7 +14,17 @@ extension UIButton{
         backgroundColor = Theme.tint
         layer.cornerRadius = self.frame.height/2
         layer.shadowRadius = 5
-        layer.shadowOpacity = 1
+        layer.shadowOpacity = 0.25
         layer.shadowOffset = CGSize(width: 0, height: 5)
+    }
+    
+    func createRoundedButtonWithLitleRadius(){
+        layer.cornerRadius = 10
+        layer.shadowRadius = 1
+        layer.shadowOpacity = 0.25
+        layer.shadowOffset = CGSize(width: 0, height: 5)
+        layer.backgroundColor = Theme.tint?.cgColor
+        self.tintColor = .white
+        self.titleLabel?.font = UIFont(name: Theme.boldFontTheme, size: 20)
     }
 }

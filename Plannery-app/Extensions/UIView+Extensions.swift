@@ -15,4 +15,11 @@ extension UIView{
        layer.shadowColor = UIColor.systemGreen.cgColor
        layer.cornerRadius = 10
     }
+    
+    func createRoundedWithLitleRadius(){
+        layer.cornerRadius = 10
+        layer.shadowRadius = 1
+        layer.shadowOpacity = 0.25
+        layer.shadowOffset = CGSize(width: 0, height: 5)
+    }
 }
