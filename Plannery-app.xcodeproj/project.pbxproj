@@ -25,6 +25,7 @@
 		C351A468250D06A500B1CEE8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351A467250D06A500B1CEE8 /* Data.swift */; };
 		C351A46B250D297D00B1CEE8 /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351A469250D297D00B1CEE8 /* TripCell.swift */; };
 		C351A46C250D297D00B1CEE8 /* TripCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C351A46A250D297D00B1CEE8 /* TripCell.xib */; };
+		C3EE07AF250F908100277FDB /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EE07AE250F908100277FDB /* UIButton+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C351A467250D06A500B1CEE8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C351A469250D297D00B1CEE8 /* TripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCell.swift; sourceTree = "<group>"; };
 		C351A46A250D297D00B1CEE8 /* TripCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripCell.xib; sourceTree = "<group>"; };
+		C3EE07AE250F908100277FDB /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				C30EAF55250DAC2600C21846 /* UIView+Extensions.swift */,
+				C3EE07AE250F908100277FDB /* UIButton+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				C32DA268250CDF5300BF89BF /* TripViewController.swift in Sources */,
 				C30EAF4B250DA8D800C21846 /* Theme.swift in Sources */,
 				C351A468250D06A500B1CEE8 /* Data.swift in Sources */,
+				C3EE07AF250F908100277FDB /* UIButton+Extensions.swift in Sources */,
 				C30EAF56250DAC2600C21846 /* UIView+Extensions.swift in Sources */,
 				C32DA264250CDF5300BF89BF /* AppDelegate.swift in Sources */,
 				C351A464250CFC3800B1CEE8 /* TripModel.swift in Sources */,

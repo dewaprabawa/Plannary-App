@@ -11,6 +11,7 @@ import UIKit
 class TripViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var addButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +21,12 @@ class TripViewController: UIViewController {
         }
         tableViewSetups()
         navigationSetups()
+        setupViews()
     }
-
+    
+    private func setupViews(){
+        addButton.createRoundedButton()
+    }
     
     private func tableViewSetups(){
         tableView.delegate = self
