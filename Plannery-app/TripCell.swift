@@ -12,6 +12,7 @@ class TripCell: UITableViewCell {
 
     @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var imageCard: UIImageView!
 
     static var identifier = "TripViewController"
     static func nib() -> UINib{
@@ -24,6 +25,8 @@ class TripCell: UITableViewCell {
         self.title.font = UIFont(name: Theme.boldFontTheme, size: 30)
         self.cardView.createCornerRadiusWithDropShadows()
         self.cardView.backgroundColor = Theme.accent
+        self.imageCard.createCornerRadiusWithDropShadows()
+        self.imageCard.image = model.image
     }
     
 }

@@ -25,6 +25,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vcu-QO-p2e">
+                                <rect key="frame" x="8" y="11" width="84" height="87"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -45,6 +49,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="cardView" destination="xQc-gf-hXt" id="bSm-lT-fsa"/>
+                <outlet property="imageCard" destination="Vcu-QO-p2e" id="6AD-gr-PSx"/>
                 <outlet property="title" destination="wCm-v5-qEh" id="kSA-rn-HMe"/>
             </connections>
             <point key="canvasLocation" x="-71.014492753623188" y="109.48660714285714"/>

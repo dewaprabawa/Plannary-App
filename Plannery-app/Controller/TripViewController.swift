@@ -20,7 +20,6 @@ class TripViewController: UIViewController {
             self?.tableView.reloadData()
         }
         tableViewSetups()
-        navigationSetups()
         setupViews()
     }
     
@@ -37,6 +36,27 @@ class TripViewController: UIViewController {
     private func navigationSetups(){
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.title = "Trips"
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        if segue.identifier == "TripAddAction" {
+            if let destination = segue.destination as? TripAddAction {
+                destination.doneSaving = { [weak self] in
+                    print("clicked")
+                    self?.doneSaved()
+                }
+            }
+        }
+    }
+    
+    
+    private func doneSaved(){
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
 
 }

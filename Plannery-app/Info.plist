@@ -67,5 +67,9 @@
 		<string>Roboto-Medium.ttf</string>
 		<string>Roboto-Regular.ttf</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Use Photos to add more details to your trips </string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Permit to add photos to detail you trips</string>
 </dict>
 </plist>

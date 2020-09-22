@@ -6,14 +6,16 @@
 //  Copyright © 2020 Dewa Prabawa. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class TripModel{
     let id: UUID
     var title: String
+    var image: UIImage?
     
-    init(title: String) {
+    init(title: String, image:UIImage? = nil) {
         self.title = title
         self.id = UUID()
+        self.image = image
     }
 }

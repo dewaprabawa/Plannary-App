@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7538DCE8C2C1207760491CC8 /* Pods_Plannery_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34910B85CDB7AC2775477A17 /* Pods_Plannery_app.framework */; };
 		C30EAF4B250DA8D800C21846 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30EAF4A250DA8D800C21846 /* Theme.swift */; };
 		C30EAF50250DAAC400C21846 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C30EAF4C250DAAC400C21846 /* Roboto-Medium.ttf */; };
 		C30EAF51250DAAC400C21846 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C30EAF4D250DAAC400C21846 /* Roboto-Light.ttf */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34910B85CDB7AC2775477A17 /* Pods_Plannery_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plannery_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB1FC7B8F98681D50815569 /* Pods-Plannery-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plannery-app.release.xcconfig"; path = "Target Support Files/Pods-Plannery-app/Pods-Plannery-app.release.xcconfig"; sourceTree = "<group>"; };
 		C30EAF4A250DA8D800C21846 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C30EAF4C250DAAC400C21846 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		C30EAF4D250DAAC400C21846 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		C398A418250FC3C100C05F43 /* AppUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIButton.swift; sourceTree = "<group>"; };
 		C398A41A250FC45300C05F43 /* PopupUIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupUIview.swift; sourceTree = "<group>"; };
 		C3EE07AE250F908100277FDB /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		F2DE9109966ECA9A9BB0533C /* Pods-Plannery-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plannery-app.debug.xcconfig"; path = "Target Support Files/Pods-Plannery-app/Pods-Plannery-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +69,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7538DCE8C2C1207760491CC8 /* Pods_Plannery_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A9CAB2CD7AB641D6F9F7553 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE9109966ECA9A9BB0533C /* Pods-Plannery-app.debug.xcconfig */,
+				AEB1FC7B8F98681D50815569 /* Pods-Plannery-app.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1585422C365864E8947F313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34910B85CDB7AC2775477A17 /* Pods_Plannery_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C30EAF49250DA8C400C21846 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +122,8 @@
 			children = (
 				C32DA262250CDF5300BF89BF /* Plannery-app */,
 				C32DA261250CDF5300BF89BF /* Products */,
+				2A9CAB2CD7AB641D6F9F7553 /* Pods */,
+				A1585422C365864E8947F313 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32DA274250CDF5900BF89BF /* Build configuration list for PBXNativeTarget "Plannery-app" */;
 			buildPhases = (
+				EB98A4836E2805702DD41407 /* [CP] Check Pods Manifest.lock */,
 				C32DA25C250CDF5300BF89BF /* Sources */,
 				C32DA25D250CDF5300BF89BF /* Frameworks */,
 				C32DA25E250CDF5300BF89BF /* Resources */,
+				FB410500BB0F5D3E7DDBC36C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +265,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB98A4836E2805702DD41407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plannery-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB410500BB0F5D3E7DDBC36C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plannery-app/Pods-Plannery-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plannery-app/Pods-Plannery-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plannery-app/Pods-Plannery-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C32DA25C250CDF5300BF89BF /* Sources */ = {
@@ -398,6 +467,7 @@
 		};
 		C32DA275250CDF5900BF89BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DE9109966ECA9A9BB0533C /* Pods-Plannery-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -415,6 +485,7 @@
 		};
 		C32DA276250CDF5900BF89BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB1FC7B8F98681D50815569 /* Pods-Plannery-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

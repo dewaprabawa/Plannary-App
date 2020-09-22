@@ -29,7 +29,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="plus" catalog="system"/>
                                 <connections>
-                                    <segue destination="a3a-Mt-AYZ" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="5VH-g6-Snk"/>
+                                    <segue destination="a3a-Mt-AYZ" kind="presentation" identifier="TripAddAction" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="5VH-g6-Snk"/>
                                 </connections>
                             </button>
                         </subviews>

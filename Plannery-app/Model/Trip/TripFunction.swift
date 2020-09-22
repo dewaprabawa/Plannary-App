@@ -14,7 +14,7 @@ class TripFunction{
     static var shared = TripFunction()
     
     func createTrip(trip: TripModel){
-        
+        Data.tripModels.append(trip)
     }
     
     func readTrips(completion:@escaping () -> ()){
