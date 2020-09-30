@@ -6,7 +6,7 @@
 //  Copyright © 2020 Dewa Prabawa. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 class TripFunction{
@@ -21,9 +21,9 @@ class TripFunction{
         
         DispatchQueue.global(qos: .userInteractive).async {
             if Data.tripModels.count == 0 {
-                Data.tripModels.append(TripModel(title: "Trip to Bali!"))
-                Data.tripModels.append(TripModel(title: "Mexico"))
-                Data.tripModels.append(TripModel(title: "Russian Trip"))
+                Data.tripModels.append(TripModel(title: "Trip to Bali!",image: UIImage(systemName: "photo")))
+                Data.tripModels.append(TripModel(title: "Mexico",image: UIImage(systemName: "photo")))
+                Data.tripModels.append(TripModel(title: "Russian Trip", image: UIImage(systemName: "photo")))
             }
         }
         
@@ -38,7 +38,7 @@ class TripFunction{
         
     }
     
-    func deleteTrip(trip: TripModel){
-        
+    func deleteTrip(at indexPath:Int){
+        Data.tripModels.remove(at: indexPath)
     }
 }

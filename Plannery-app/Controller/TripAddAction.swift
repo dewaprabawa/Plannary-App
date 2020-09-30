@@ -149,8 +149,6 @@ extension TripAddAction: UIImagePickerControllerDelegate, UINavigationController
             self.imageLeftField.image = selectedImage
         }
         
-        
-        
         picker.dismiss(animated: true, completion: nil)
     }
 }

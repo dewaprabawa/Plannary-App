@@ -79,5 +79,18 @@ extension TripViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let delete = UIContextualAction(style: .destructive, title: "Delete") { (contextualAction, view, actionPerfomred: (Bool) -> Void) in
+            TripFunction.shared.deleteTrip(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            tableView.reloadData()
+        }
+        
+        delete.image = UIImage(systemName: "delete.left")
+        
+       
+        return UISwipeActionsConfiguration(actions: [delete])
+    }
 }
 
